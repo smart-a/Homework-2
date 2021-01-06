@@ -1,0 +1,78 @@
+body {
+  font-family: "gill", sans-serif;
+  padding: 10px 50px;
+}
+
+.my-details {
+  margin-bottom: 20px;
+}
+
+td {
+  padding-bottom: 10px;
+}
+
+.tb-title {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.tb-title + td {
+  padding-left: 15px;
+}
+
+.about-head {
+  margin: 0;
+}
+.about {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.list-head {
+  margin-bottom: 10px;
+}
+
+.listing > li {
+  list-style: circle;
+  margin-bottom: 10px;
+}
+
+.menu {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: block;
+  padding: 5px;
+}
+
+.menu > div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu > div > a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+.form {
+  margin-top: 3em;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+}
+
+input[type="text"] {
+  width: 320px;
+}
+
+input[type="submit"] {
+  width: 80px;
+  cursor: pointer;
+}
